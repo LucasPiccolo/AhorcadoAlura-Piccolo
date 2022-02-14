@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="iconhtml.png">
+  <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+    <main class="container">
+      <h1 class="title">Ahorcado</h1>
+      <div class="controles">
+        <button href="#" id="iniciar" class="btn">Iniciar juego</button>
+      </div>
+      <div class="juego hide">
+        <canvas width="500px" height="500px" id="ahorcado"></canvas>
+        <div>
+          <div class="mobile-control">
+            <input placeholder="Ingresa la letra" id="mobile-input"/>
+          </div>
+          <div>
+            <h3>Letras usadas: </h3>
+            <div id="letras-usadas"></div>
+          </div>
+          <div id="letras"></div>
+        </div>
+      </div>
+    </main>
+
+    <div class="modal">
+      <div>
+        <h4 id="titulo">Perdiste</h4>
+      <p id="mensaje"></p>
+      <button class="btn">Continuar</button>
+      </div>
+    </div>
+    
+    
+    <footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3>Hecho<span> por Lucas Piccolo</span></h3>
+
+        <p class="footer-links">
+          <a href="https://www.linkedin.com/in/lucas-piccolo-tandil/">LinkedIn</a>
+          ·
+          <a href="https://github.com/LucasPiccolo">GitHub</a>
+          ·
+          <a>E-mail: lucasfederico97@gmail.com</a>
+        </p>
+
+        <p class="footer-company-name">© 2022</p>
+
+
+      </div>
+
+    
+      </div>
+
+    </footer>
+
+
+    <script src="palabras.js"></script>
+    <script src="canvas.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
